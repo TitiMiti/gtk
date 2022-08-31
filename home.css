@@ -1,0 +1,21 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-image {
+  width: 100%;
+  object-fit: cover;
+}
+@media(max-width: 479px) {
+  .home-container {
+    background-color: #1A1A1A;
+  }
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+}
